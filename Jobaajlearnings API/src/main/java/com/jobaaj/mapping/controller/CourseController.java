@@ -29,7 +29,6 @@ public class CourseController {
 	@Autowired
 	private CourseService courseService;
 
-
 	
 	@GetMapping("/course/{courseId}")
 	public ResponseEntity<CourseDto> getCourse(@PathVariable("courseId") Integer courseId){

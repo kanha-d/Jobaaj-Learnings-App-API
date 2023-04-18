@@ -41,7 +41,6 @@ public class AuthController {
 		
 		
 			try {
-				
 				this.authenticate(request.getEmail(),request.getPassword());
 			
 			} catch (UsernameNotFoundException e) {
